@@ -94,13 +94,14 @@ li {
 body {
 display: flex;
 flex-direction: column;
+margin: 0;
 }
 
 .header {
     flex: 1;
     display: flex;
     justify-content: space-between;
-    padding: 20px 400px;
+    padding: 20px 400px 0px;
     align-items: center;
 } 
 
@@ -110,8 +111,40 @@ flex-direction: column;
 }
 
 .first-row {
-    flex: 1;
+    display: flex;
+    padding: 80px 400px;
+    justify-content: space-between;
 } 
+
+.first-row-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+
+.main-text, .second {
+    width: 450px;
+    margin: 0;
+}
+
+.secondary-text.second {
+    width: 450px;
+    margin: 0;
+}
+
+.sign-up-top {
+    padding: 5px 20px
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    min-width: 450px;
+}
 
 .second-row {
     flex: 1;
