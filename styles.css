@@ -175,7 +175,20 @@ margin: 0;
 
 .third-row {
     flex: 1;
+    display: flex;
+    padding: 100px 400px;
+    flex-direction: column;
+    align-items: center;
 } 
+
+.quote {
+    margin: 0;
+}
+
+.author {
+    align-self: flex-end;
+}
+
 
 .fourth-row {
     flex: 1;
