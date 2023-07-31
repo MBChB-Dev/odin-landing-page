@@ -1,3 +1,7 @@
+body {
+    font-family: Roboto;
+}
+
 .header, .footer, .first-row {
     background-color: #1F2937;
 }
@@ -28,6 +32,7 @@
     color: white;
     border-radius: 4px;
 }
+
 .sign-up-bottom {
     background-color: #3882F6;
     border-color: white;
