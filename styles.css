@@ -1,7 +1,7 @@
+/* Adding CSS fonts and colours */
+
 body {
     font-family: Roboto;
-    display: flex;
-    flex-direction: column;
 }
 
 .header, .footer, .first-row {
@@ -88,3 +88,43 @@ ul {
 li {
     list-style: none;
 }
+
+/* Arranging flex layout */
+
+body {
+display: flex;
+flex-direction: column;
+}
+
+.header {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 400px;
+    align-items: center;
+} 
+
+.header-list {
+    display: flex;
+    gap: 50px;
+}
+
+.first-row {
+    flex: 1;
+} 
+
+.second-row {
+    flex: 1;
+} 
+
+.third-row {
+    flex: 1;
+} 
+
+.fourth-row {
+    flex: 1;
+} 
+
+.footer {
+    flex: 1;
+} 
