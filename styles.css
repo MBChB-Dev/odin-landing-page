@@ -135,7 +135,9 @@ margin: 0;
 }
 
 .sign-up-top {
-    padding: 5px 20px
+    padding: 5px 20px;
+    font-weight: bold;
+    
 }
 
 .placeholder {
@@ -189,10 +191,36 @@ margin: 0;
     align-self: flex-end;
 }
 
-
 .fourth-row {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 400px;
 } 
+
+.blue-box {
+flex: 1;
+display: flex;
+padding: 40px 100px;
+justify-content: space-between;
+border-radius: 8px
+}
+
+.call-to-action { font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+
+.click {
+    padding: 0;
+    margin: 0;
+}
+
+.sign-up-bottom {
+    padding: 5px 20px;
+    font-weight: bold;
+}
 
 .footer {
     flex: 1;
