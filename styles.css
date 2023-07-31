@@ -224,4 +224,7 @@ border-radius: 8px
 
 .footer {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 } 
