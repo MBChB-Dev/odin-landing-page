@@ -148,7 +148,30 @@ margin: 0;
 
 .second-row {
     flex: 1;
+    display: flex;
+    padding: 40px 400px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
 } 
+
+.info-header-text {
+    margin: 0;
+    padding: 0;
+}
+
+.info-list {
+    display: flex;
+    gap: 40px;
+}
+
+.illustration {
+    margin-bottom: 10px;
+}
+
 
 .third-row {
     flex: 1;
